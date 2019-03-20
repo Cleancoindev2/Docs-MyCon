@@ -71,25 +71,7 @@
     <li class="toctree-l3"><a href="#introduction">Introduction</a></li>
     
 
-    <li class="toctree-l3"><a href="#authentication">Authentication</a></li>
-    
-
-    <li class="toctree-l3"><a href="#account-related-apis">Account Related APIs</a></li>
-    
-
     </ul>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../AdAPI/">Admin API</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../ClAPI/">Client API</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../TokUserAPI/">Tokenization Platform User API</a>
                 </li>
     </ul>
 	    </li>
@@ -154,143 +136,9 @@
           <div role="main">
             <div class="section">
               
-                <p><strong>API's</strong></p>
-<p><strong>REST-full API implantation of mycontract platform</strong></p>
-<h1 id="introduction"><strong>Introduction</strong><a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h1>
+                <h1 id="introduction"><strong>Introduction</strong><a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h1>
 <p>Welcome to the MyContract API! We are the leading platform for Smart Contract Creation, Deployment, Interaction, and Token Offering.</p>
-<h1 id="authentication"><strong>Authentication</strong><a class="headerlink" href="#authentication" title="Permanent link">&para;</a></h1>
-<p>A JSON Web Token is used to send information that can be verified and trusted by means of a digital signature. It comprises a compact and URL-safe JSON object, which is cryptographically signed to verify its authenticity, and which can also be encrypted if the payload contains sensitive information.</p>
-<p>Application may request to access routes, services, or resources on behalf of that user. To do so, it uses an access token, which is in the form of a JWT token. User has to provide JWT token in header as a authorization in every subsequent request after login.</p>
-<p><code>axios.get('https://api.mycontract.co:3001/demo', {headers: {
-Authorization:"yRQYnWzskCZUxPwaQupWkiUzKELZ49eM" //JWT Token}
-})</code></p>
-<p><code>axios.post('https://api.mycontract.co:3001/demo', {headers: {Authorization:"yRQYnWzskCZUxPwaQupWkiUzKELZ49eM" //JWT Token},data: //JSON})</code>
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-=======</p>
-<h1 id="account-related-apis"><strong>Account Related APIs</strong><a class="headerlink" href="#account-related-apis" title="Permanent link">&para;</a></h1>
-<div class="admonition post">
-<p class="admonition-title">Post</p>
-</div>
-<p><strong>Sign Up</strong></p>
-<div class="codehilite"><pre><span></span>    https://api.mycontract.co:3001/v1/admin/signup
-</pre></div>
-
-
-<p>This endpoint allows you to signup for admin.</p>
-<p><img alt="overview" src="/assets/Request1.jpg" /></p>
-<p><img alt="overview" src="/assets/Response1.jpg" /></p>
-<div class="admonition post">
-<p class="admonition-title">Post</p>
-</div>
-<p><strong>Login</strong></p>
-<div class="codehilite"><pre><span></span>            https://api.mycontract.co:3001/v1/admin/login
-</pre></div>
-
-
-<p>This endpoint allows you to login as admin.</p>
-<p><img alt="overview" src="/assets/Request2.jpg" /></p>
-<p><img alt="overview" src="/assets/Response2.jpg" /></p>
-<div class="admonition get">
-<p class="admonition-title">Get</p>
-</div>
-<p><strong>Profile Details</strong></p>
-<div class="codehilite"><pre><span></span>            https://api.mycontract.co:3001/v1/admin/details
-</pre></div>
-
-
-<p>This endpoint is used to get admin profile details</p>
-<p><img alt="overview" src="/assets/Request3.jpg" /></p>
-<p><img alt="overview" src="/assets/Response3.jpg" /></p>
-<div class="admonition get">
-<p class="admonition-title">Get</p>
-</div>
-<p><strong>Upload KYC Data</strong></p>
-<div class="codehilite"><pre><span></span>            https://api.mycontract.co:3001/v1/admin/uploadKYC
-</pre></div>
-
-
-<p>This endpoint is used to upload KYC data.</p>
-<p><img alt="overview" src="/assets/Request4.jpg" /></p>
-<p><img alt="overview" src="/assets/Response4.jpg" /></p>
-<div class="admonition get">
-<p class="admonition-title">Get</p>
-</div>
-<p><strong>Client List</strong></p>
-<div class="codehilite"><pre><span></span>            https://api.mycontract.co:3001/v1/admin/client/list
-</pre></div>
-
-
-<p>This endpoint is used to retrieve client list. </p>
-<p><img alt="overview" src="/assets/Request5.jpg" /></p>
-<p><img alt="overview" src="/assets/Response5.jpg" /></p>
-<div class="admonition get">
-<p class="admonition-title">Get</p>
-</div>
-<p><strong>Individual client detail</strong></p>
-<div class="codehilite"><pre><span></span>            https://api.mycontract.co:3001/v1/admin/client/:clientId
-</pre></div>
-
-
-<p>This endpoint is used to retrieve client list. </p>
-<p><img alt="overview" src="/assets/Request6.jpg" /></p>
-<p><img alt="overview" src="/assets/Response6.jpg" /></p>
-<div class="admonition get">
-<p class="admonition-title">Get</p>
-</div>
-<p><strong>Individual client detail</strong></p>
-<div class="codehilite"><pre><span></span>            https://api.mycontract.co:3001/v1/admin/client/:clientId
-</pre></div>
-
-
-<p>This endpoint is used to retrieve client list. </p>
-<p><img alt="overview" src="/assets/Request6.jpg" /></p>
-<p><img alt="overview" src="/assets/Response6.jpg" /></p>
-<div class="admonition post">
-<p class="admonition-title">Post</p>
-</div>
-<p><strong>Update Client KYC Status</strong></p>
-<div class="codehilite"><pre><span></span>            https://api.mycontract.co:3001/v1/admin/client/updateKYC/:clientId
-</pre></div>
-
-
-<p>This endpoint is used to update KYC status.</p>
-<p><img alt="overview" src="/assets/Request7.jpg" /></p>
-<p><img alt="overview" src="/assets/Response7.jpg" /></p>
-<div class="admonition get">
-<p class="admonition-title">Get</p>
-</div>
-<p><strong>Logout</strong></p>
-<div class="codehilite"><pre><span></span>            https://api.mycontract.co:3001/v1/admin/logout
-</pre></div>
-
-
-<p>This endpoint is used to end user session.</p>
-<p><img alt="overview" src="/assets/Request8.jpg" /></p>
-<p><img alt="overview" src="/assets/Response8.jpg" /></p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-</div>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-</div>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-</div>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>4a02def5d67829d4ea18ed40dd2a7fabf15eeb75</p>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
+<p><strong><a href="https://api.mycontract.co/">Click here to visit MyContract API platform</a></strong></p>
               
             </div>
           </div>
@@ -298,7 +146,7 @@ Authorization:"yRQYnWzskCZUxPwaQupWkiUzKELZ49eM" //JWT Token}
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../AdAPI/" class="btn btn-neutral float-right" title="Admin API">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../../Media/Articles/" class="btn btn-neutral float-right" title="Articles">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../how_to_setup/" class="btn btn-neutral" title="How to Set Up"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -332,7 +180,7 @@ Authorization:"yRQYnWzskCZUxPwaQupWkiUzKELZ49eM" //JWT Token}
         <span><a href="../how_to_setup/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../AdAPI/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../../Media/Articles/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

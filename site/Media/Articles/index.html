@@ -67,18 +67,6 @@
                     
     <a class="" href="../../Guide/API/">API Documentation</a>
                 </li>
-                <li class="">
-                    
-    <a class="" href="../../Guide/AdAPI/">Admin API</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../../Guide/ClAPI/">Client API</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../../Guide/TokUserAPI/">Tokenization Platform User API</a>
-                </li>
     </ul>
 	    </li>
           
@@ -91,6 +79,29 @@
     <a class="current" href="./">Articles</a>
     <ul class="subnav">
             
+    <li class="toctree-l3"><a href="#ark-core">Ark Core</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#introduction">Introduction</a></li>
+        
+            <li><a class="toctree-l4" href="#documentation">Documentation</a></li>
+        
+            <li><a class="toctree-l4" href="#api-documentation">API Documentation</a></li>
+        
+            <li><a class="toctree-l4" href="#github-development-bounty">GitHub Development Bounty</a></li>
+        
+            <li><a class="toctree-l4" href="#core-packages">Core Packages</a></li>
+        
+            <li><a class="toctree-l4" href="#security">Security</a></li>
+        
+            <li><a class="toctree-l4" href="#credits">Credits</a></li>
+        
+            <li><a class="toctree-l4" href="#license">License</a></li>
+        
+        </ul>
+    
+
     </ul>
                 </li>
     </ul>
@@ -150,6 +161,196 @@
 <p><a href="https://www.accesswire.com/526184/XinFin-Dev-Community-Launches-Mycontractco-Businesses-and-Individuals-Can-Now-create-Their-Own-Token-Smart-Contracts-in-Minutes-Without-Coding-Expertise">XinFin Dev Community Launches Mycontract.co, Businesses and Individuals Can Now create Their Own Token Smart-Contracts in Minutes Without Coding Expertise</a></p>
 <p><a href="https://medium.com/xinfin/mycontract-smart-contracts-tokens-issuing-asset-tokenization-and-icos-made-easy-1879d523341">MyContract.co: Smart Contracts, Tokens Issuing, Asset Tokenization, and ICOs made easy</a></p>
 <p><a href="https://medium.com/xinfin/https-medium-com-xinfin-xinfin-launches-mycontract-technical-aspects-part-1-9c3604a4b6df">XinFin Launches MyContract.co - Technical Aspects - Part1</a></p>
+<h1 id="ark-core">Ark Core<a class="headerlink" href="#ark-core" title="Permanent link">&para;</a></h1>
+<p align="center">
+    <img src="./banner.png" />
+</p>
+
+<p><a href="https://circleci.com/gh/ArkEcosystem/core"><img alt="Build Status" src="https://badgen.now.sh/circleci/github/ArkEcosystem/core" /></a>
+<a href="https://codecov.io/gh/arkecosystem/core"><img alt="Codecov" src="https://badgen.now.sh/codecov/c/github/arkecosystem/core" /></a>
+<a href="https://opensource.org/licenses/MIT"><img alt="License: MIT" src="https://badgen.now.sh/badge/license/MIT/green" /></a></p>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>This repository contains all plugins that make up the Ark Core.</p>
+<h2 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Development : https://docs.ark.io/guidebook/core/development.html</li>
+<li>Docker : https://docs.ark.io/guidebook/core/docker.html</li>
+</ul>
+<h2 id="api-documentation">API Documentation<a class="headerlink" href="#api-documentation" title="Permanent link">&para;</a></h2>
+<ul>
+<li>API v1 : https://docs.ark.io/api/public/v1/</li>
+<li>API v2 : https://docs.ark.io/api/public/v2/</li>
+</ul>
+<h2 id="github-development-bounty">GitHub Development Bounty<a class="headerlink" href="#github-development-bounty" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Get involved with Ark development and start earning ARK : https://bounty.ark.io</li>
+</ul>
+<h2 id="core-packages">Core Packages<a class="headerlink" href="#core-packages" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Package</th>
+<th>Version</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="/packages/core">core</a></strong></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core" /></a></td>
+<td><strong>Includes all packages</strong></td>
+</tr>
+<tr>
+<td><a href="/packages/core-api">core-api</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-api"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-api" /></a></td>
+<td>Public REST API</td>
+</tr>
+<tr>
+<td><a href="/packages/core-blockchain">core-blockchain</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-blockchain"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-blockchain" /></a></td>
+<td>Blockchain Managment</td>
+</tr>
+<tr>
+<td><a href="/packages/core-container">core-container</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-container"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-container" /></a></td>
+<td>Container Managment</td>
+</tr>
+<tr>
+<td><a href="/packages/core-database">core-database</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-database"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-database" /></a></td>
+<td>Database Interface</td>
+</tr>
+<tr>
+<td><a href="/packages/core-database-postgres">core-database-postgres</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-database-postgres"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-database-postgres" /></a></td>
+<td>Database Implementation - PostgreSQL</td>
+</tr>
+<tr>
+<td><a href="/packages/core-debugger-cli">core-debugger-cli</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-debugger-cli"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-debugger-cli" /></a></td>
+<td>Debugger CLI <em>(development only)</em></td>
+</tr>
+<tr>
+<td><a href="/packages/core-deployer">core-deployer</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-deployer"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-deployer" /></a></td>
+<td>Deployer CLI</td>
+</tr>
+<tr>
+<td><a href="/packages/core-elasticsearch">core-elasticsearch</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-elasticsearch"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-elasticsearch" /></a></td>
+<td>Elasticsearch Server</td>
+</tr>
+<tr>
+<td><a href="/packages/core-error-tracker-bugsnag">core-error-tracker-bugsnag</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-error-tracker-bugsnag"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-error-tracker-bugsnag" /></a></td>
+<td>Error Tracking - Bugsnag</td>
+</tr>
+<tr>
+<td><a href="/packages/core-error-tracker-sentry">core-error-tracker-sentry</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-error-tracker-sentry"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-error-tracker-sentry" /></a></td>
+<td>Error Tracking - Sentry</td>
+</tr>
+<tr>
+<td><a href="/packages/core-event-emitter">core-event-emitter</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-event-emitter"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-event-emitter" /></a></td>
+<td>Event Emitter</td>
+</tr>
+<tr>
+<td><a href="/packages/core-forger">core-forger</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-forger"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-forger" /></a></td>
+<td>Forger Manager</td>
+</tr>
+<tr>
+<td><a href="/packages/core-graphql">core-graphql</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-graphql"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-graphql" /></a></td>
+<td>GraphQL Server</td>
+</tr>
+<tr>
+<td><a href="/packages/core-http-utils">core-http-utils</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-http-utils"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-http-utils" /></a></td>
+<td>HTTP Utilities</td>
+</tr>
+<tr>
+<td><a href="/packages/core-json-rpc">core-json-rpc</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-json-rpc"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-json-rpc" /></a></td>
+<td>JSON-RPC Server</td>
+</tr>
+<tr>
+<td><a href="/packages/core-logger">core-logger</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-logger"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-logger" /></a></td>
+<td>Logger Interface</td>
+</tr>
+<tr>
+<td><a href="/packages/core-logger-winston">core-logger-winston</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-logger-winston"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-logger-winston" /></a></td>
+<td>Logger Implementation - Winston</td>
+</tr>
+<tr>
+<td><a href="/packages/core-p2p">core-p2p</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-p2p"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-p2p" /></a></td>
+<td>P2P Communication</td>
+</tr>
+<tr>
+<td><a href="/packages/core-snapshots">core-snapshots</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-snapshots"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-snapshots" /></a></td>
+<td>Snapshot Manager</td>
+</tr>
+<tr>
+<td><a href="/packages/core-snapshots-cli">core-snapshots-cli</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-snapshots-cli"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-snapshots-cli" /></a></td>
+<td>Snapshot CLI</td>
+</tr>
+<tr>
+<td><a href="/packages/core-test-utils">core-test-utils</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-test-utils"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-test-utils" /></a></td>
+<td>Test Utilities <em>(development only)</em></td>
+</tr>
+<tr>
+<td><a href="/packages/core-tester-cli">core-tester-cli</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-tester-cli"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-tester-cli" /></a></td>
+<td>Tester CLi <em>(development only)</em></td>
+</tr>
+<tr>
+<td><a href="/packages/core-transaction-pool">core-transaction-pool</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-transaction-pool"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-transaction-pool" /></a></td>
+<td>Transaction Pool</td>
+</tr>
+<tr>
+<td><a href="/packages/core-utils">core-utils</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-utils"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-utils" /></a></td>
+<td>Utilities</td>
+</tr>
+<tr>
+<td><a href="/packages/core-vote-report">core-vote-report</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-vote-report"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-vote-report" /></a></td>
+<td>Vote Report</td>
+</tr>
+<tr>
+<td><a href="/packages/core-webhooks">core-webhooks</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/core-webhooks"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/core-webhooks" /></a></td>
+<td>Webhook Server</td>
+</tr>
+<tr>
+<td><a href="/packages/crypto">crypto</a></td>
+<td><a href="https://www.npmjs.com/package/@arkecosystem/crypto"><img alt="npm" src="https://badgen.now.sh/npm/v/@arkecosystem/crypto" /></a></td>
+<td>Cryptography</td>
+</tr>
+</tbody>
+</table>
+<h2 id="security">Security<a class="headerlink" href="#security" title="Permanent link">&para;</a></h2>
+<p>If you discover a security vulnerability within this package, please send an e-mail to security@ark.io. All security vulnerabilities will be promptly addressed.</p>
+<h2 id="credits">Credits<a class="headerlink" href="#credits" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../contributors">All Contributors</a></li>
+<li><a href="https://github.com/alexbarnsley">Alex Barnsley</a></li>
+<li><a href="https://github.com/faustbrian">Brian Faust</a></li>
+<li><a href="https://github.com/fix">François-Xavier Thoorens</a></li>
+<li><a href="https://github.com/supaiku0">Joshua Noack</a></li>
+<li><a href="https://github.com/kristjank">Kristjan Košič</a></li>
+<li><a href="https://github.com/vasild">Vasil Dimov</a></li>
+</ul>
+<h2 id="license">License<a class="headerlink" href="#license" title="Permanent link">&para;</a></h2>
+<p><a href="LICENSE">MIT</a> © <a href="https://ark.io">ArkEcosystem</a></p>
               
             </div>
           </div>
@@ -160,7 +361,7 @@
         <a href="../../faq/faq/" class="btn btn-neutral float-right" title="Faq">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../../Guide/TokUserAPI/" class="btn btn-neutral" title="Tokenization Platform User API"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../Guide/API/" class="btn btn-neutral" title="API Documentation"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -188,7 +389,7 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../../Guide/TokUserAPI/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../../Guide/API/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
         <span style="margin-left: 15px"><a href="../../faq/faq/" style="color: #fcfcfc">Next &raquo;</a></span>

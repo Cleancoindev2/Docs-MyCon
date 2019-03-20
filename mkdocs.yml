@@ -50,9 +50,6 @@ nav:
     - Getting Started:
         - How to Set Up: Guide/how_to_setup.md
         - API Documentation: Guide/API.md
-        - Admin API: Guide/AdAPI.md
-        - Client API: Guide/ClAPI.md
-        - Tokenization Platform User API: Guide/TokUserAPI.md
     - Media Room:
         - Media/Articles.md
     - FAQ:
