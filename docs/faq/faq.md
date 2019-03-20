@@ -15,3 +15,6 @@
 
 !!! quote "How to manage and transfer token and where to check tansaction status?"
     Please visit website https://XinFin.network to get link to wallet to manage and transfer token and explorer link to check status of every transaction.
+
+!!! quote "What happens to the Fiat Revenue collected over Paypal/Credit Cards?"
+    Paypal/Credit cards is an option offered for convenience to the end users. There is a script in the background to permanently burn up-to 50% of XDCe from the open market. Rest 50% is held as a float for product enhancements and it's expenses. There will be a periodic evidence released for the transaction hash of the token burn by the developer community.
