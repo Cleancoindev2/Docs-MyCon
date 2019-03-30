@@ -1,4 +1,6 @@
-## **Start Your Blockchain Business, Powered By MyContract.co without code expertise.** 
+﻿## **Start Your Blockchain Business, Powered By MyContract.co without code expertise.** 
+
+![overview](/assets/block.jpg)
 
 **Market Size for Smart Contract Creation:**
 
@@ -29,11 +31,12 @@ End – User/Target Market: Smart contract Creation tools useful for below menti
 
 **Estimated Income/Per Contract Creation:** MyContract to Create Smart contract. (approx cost USD 1,500 worth XDCE to be bought and burnt from open market). You can charge anywhere between USD 4000 to USD 10,000 to end customer. Estimated Profit between USD 2,500 to USD 8,500/per Contract Creation Depends on your value addition to the client.
 
-**Partner Contribution**
 
-* An existing local network 
-* A Sales and business-oriented mindset to identify large and small business opportunities in your area. 
-* The capability to sell a service and the resources to use our web-based tools.
+## **Partner Contribution**
+
+* **An existing local network**
+* **A Sales and business-oriented mindset to identify large and small business opportunities in your area.**
+* **The capability to sell a service and the resources to use our web-based tools.**
 
 
 ## **FAQ**
