@@ -39,30 +39,3 @@ End – User/Target Market: Smart contract Creation tools useful for below menti
 * **The capability to sell a service and the resources to use our web-based tools.**
 
 
-## **FAQ**
-
-**Q. What types of payment mycontract.co accept?**
-
-A. mycontract.co accept PayPal and XDC, ETH Coin.
-
-**Q. Can I bill client directly?**
-
-A. Yes. you can bill directly to your customer. 
-
-**Q. Do you provide any co-branded option to leverage mycontract to close the sale quickly ??**
-
-A. Yes. you are free to Leverage mycontract and XinFin Network to close your sales cycle quickly. 
-
-
-**Q. Can I create trial accounts?**
-
-A. Yes. for limited time we provide facility to create and deploy one free Smart contract.
-
-
-**Q. Can I customize my website to create smart contract under my Logo?**
-
-A. Yes. You can use our Storefront Designer to make your storefront reflect your personal brand
-
-**Q. What if I need help?**
-
-A. Please share your problem at open forum, slack, telegram if you are not satisfied with the answer then feel free to mail at info@mycontract.co 
