@@ -1,4 +1,7 @@
-**Leading Platform for Smart Contract Creation, Deployment, Interaction & Token Offering**
+﻿**Leading Platform for Smart Contract Creation, Deployment, Interaction & Token Offering**
+
+
+![MYCONTRACT](/assets/overview.png)
 
 MyContract.co: a WebApp that allows users to create smart contracts for issuing tokens to crowdsale or asset tokenization without a need for any programming expertise, just in a few clicks.
 
