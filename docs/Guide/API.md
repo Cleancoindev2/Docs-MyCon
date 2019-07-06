@@ -1,6 +1,6 @@
 
 
-# **Introduction**
+**Introduction**
 
 Welcome to the MyContract API! We are the leading platform for Smart Contract Creation, Deployment, Interaction, and Token Offering.
 
