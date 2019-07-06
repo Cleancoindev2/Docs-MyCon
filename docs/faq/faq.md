@@ -6,6 +6,12 @@
 
 !!! quote "Mycontract.co supports which blockchain?"
     Mycontract.co supports XinFin's XDC( XinFin.Network) and Ethereum's ERC 20 token creation conventions smart contract which facilitates crowd sale and related smart contracts execution on its networks.
+    
+!!! quote "Can I create trial accounts?"
+     Yes. for limited time we provide facility to create and deploy one free Smart contract.   
+     
+!!! quote "Can I customize my website to create smart contract under my Logo?"
+     Yes. You can use our Storefront Designer to make your storefront reflect your personal brand  
 
 !!! quote "How will I be assured that mycontract is secure?"
     Our contracts have been audited by a reputed smart contract auditing firm. Our contract came out with no vulnerabilities.
@@ -18,3 +24,6 @@
 
 !!! quote "What happens to the Fiat Revenue collected over Paypal/Credit Cards?"
     Paypal/Credit cards is an option offered for convenience to the end users. There is a script in the background to permanently burn up-to 50% of XDCe from the open market. Rest 50% is held as a float for product enhancements and it's expenses. There will be a periodic evidence released for the transaction hash of the token burn by the developer community.
+
+!!! quote "What if I need help?"
+    Please share your problem at open forum, slack, telegram if you are not satisfied with the answer then feel free to mail at info@mycontract.co 
